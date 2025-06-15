@@ -3,46 +3,46 @@ export const projects = [
     id: 1,
     title: "Zen Mind",
     shortDescription: "Meditation app designed using Figma",
-    mainImage: "/src/assets/images/projects/zenmind/main.png",
+    mainImage: "/assets/images/projects/zenmind/main.png", // Updated path
     gallery: [
       {
         type: "image",
-        src: "/src/assets/images/projects/zenmind/gallery1.png",
+        src: "/assets/images/projects/zenmind/gallery1.png", // Updated path
         alt: "Splash and onboarding screens"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/zenmind/gallery2.png",
-        alt: "Profile and meditation screen"
-      },
-       {
-        type: "image",
-        src: "/src/assets/images/projects/zenmind/gallery3.png",
-        alt: "Profile and meditation screen"
-      },
-       {
-        type: "image",
-        src: "/src/assets/images/projects/zenmind/gallery4.png",
-        alt: "Profile and meditation screen"
-      },
-       {
-        type: "image",
-        src: "/src/assets/images/projects/zenmind/gallery5.png",
+        src: "/assets/images/projects/zenmind/gallery2.png", // Updated path
         alt: "Profile and meditation screen"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/zenmind/gallery6.png",
+        src: "/assets/images/projects/zenmind/gallery3.png", // Updated path
         alt: "Profile and meditation screen"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/zenmind/gallery7.png",
+        src: "/assets/images/projects/zenmind/gallery4.png", // Updated path
+        alt: "Profile and meditation screen"
+      },
+      {
+        type: "image",
+        src: "/assets/images/projects/zenmind/gallery5.png", // Updated path
+        alt: "Profile and meditation screen"
+      },
+      {
+        type: "image",
+        src: "/assets/images/projects/zenmind/gallery6.png", // Updated path
+        alt: "Profile and meditation screen"
+      },
+      {
+        type: "image",
+        src: "/assets/images/projects/zenmind/gallery7.png", // Updated path
         alt: "Profile and meditation screen"
       },
       {
         type: "video",
-        src: "/src/assets/images/projects/zenmind/demo.mp4",
+        src: "/assets/images/projects/zenmind/demo.mp4", // Updated path
         alt: "App walkthrough"
       }
     ],
@@ -63,36 +63,36 @@ export const projects = [
     id: 2,
     title: "Gym Management System",
     shortDescription: "Custom risk calculation with workout planning",
-    mainImage: "/src/assets/images/projects/gym/main.jpg",
+    mainImage: "/assets/images/projects/gym/main.jpg", // Updated path
     gallery: [
       {
         type: "image",
-        src: "/src/assets/images/projects/gym/gallery1.jpeg",
+        src: "/assets/images/projects/gym/gallery1.jpeg", // Updated path
         alt: "Risk calculator interface"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/gym/gallery2.jpeg",
-        alt: "Workout plan dashboard"
-      },
-     {
-        type: "image",
-        src: "/src/assets/images/projects/gym/gallery3.jpeg",
+        src: "/assets/images/projects/gym/gallery2.jpeg", // Updated path
         alt: "Workout plan dashboard"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/gym/gallery4.jpeg",
+        src: "/assets/images/projects/gym/gallery3.jpeg", // Updated path
         alt: "Workout plan dashboard"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/gym/gallery5.jpeg",
+        src: "/assets/images/projects/gym/gallery4.jpeg", // Updated path
         alt: "Workout plan dashboard"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/gym/gallery6.jpegg",
+        src: "/assets/images/projects/gym/gallery5.jpeg", // Updated path
+        alt: "Workout plan dashboard"
+      },
+      {
+        type: "image",
+        src: "/assets/images/projects/gym/gallery6.jpeg", // Updated path
         alt: "Workout plan dashboard"
       },
     ],
@@ -114,39 +114,38 @@ export const projects = [
     id: 3,
     title: "Dry FoodMart Management System",
     shortDescription: "Staff and inventory management system using MERN Stack",
-    mainImage: "/src/assets/images/projects/foodmart/main.png",
+    mainImage: "/assets/images/projects/foodmart/main.png", // Updated path
     gallery: [
       {
         type: "image",
-        src: "/src/assets/images/projects/foodmart/gallery1.png",
+        src: "/assets/images/projects/foodmart/gallery1.png", // Updated path
         alt: "Staff management dashboard"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/foodmart/gallery2.png",
+        src: "/assets/images/projects/foodmart/gallery2.png", // Updated path
         alt: "Search and reporting feature"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/foodmart/gallery3.png",
+        src: "/assets/images/projects/foodmart/gallery3.png", // Updated path
         alt: "Search and reporting feature"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/foodmart/gallery4.png",
-        alt: "staff managemet"
+        src: "/assets/images/projects/foodmart/gallery4.png", // Updated path
+        alt: "staff management"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/foodmart/gallery5.png",
+        src: "/assets/images/projects/foodmart/gallery5.png", // Updated path
         alt: "update staff"
       },
       {
         type: "video",
-        src: "/src/assets/images/projects/foodmart/demo.mp4",
+        src: "/assets/images/projects/foodmart/demo.mp4", // Updated path
         alt: "Demo walkthrough"
       }
-      
     ],
     tags: ["MERN Stack", "CRUD", "Reports"],
     fullDescription:
@@ -159,32 +158,32 @@ export const projects = [
     ],
     techStack: ["MongoDB", "Express.js", "React", "Node.js"],
     liveUrl: "",
-    githubUrl: "https://github.com/IT22117946/food-mart-manegment-system"
+    githubUrl: "https://github.com/IT22117946/food-mart-manegment-system" 
   },
   {
     id: 4,
     title: "Save The Rocket / Tic Tac TОЕ",
     shortDescription: "Android game developed using Kotlin",
-    mainImage: "/src/assets/images/projects/savetherocket/main.jpg",
+    mainImage: "/assets/images/projects/savetherocket/main.jpg", // Updated path
     gallery: [
       {
         type: "image",
-        src: "/src/assets/images/projects/savetherocket/gallery1.png",
+        src: "/assets/images/projects/savetherocket/gallery1.png", // Updated path
         alt: "Gameplay screen"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/savetherocket/gallery2.png",
+        src: "/assets/images/projects/savetherocket/gallery2.png", // Updated path
         alt: "Scoreboard screen"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/savetherocket/gallery3.png",
+        src: "/assets/images/projects/savetherocket/gallery3.png", // Updated path
         alt: "Scoreboard screen"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/savetherocket/gallery4.png",
+        src: "/assets/images/projects/savetherocket/gallery4.png", // Updated path
         alt: "Scoreboard screen"
       },
     ],
@@ -205,26 +204,26 @@ export const projects = [
     id: 5,
     title: "Beecy Fashion",
     shortDescription: "Clothing shopping app built with Kotlin",
-    mainImage: "/src/assets/images/projects/beecyfashion/main.jpg",
+    mainImage: "/assets/images/projects/beecyfashion/main.jpg", // Updated path
     gallery: [
       {
         type: "image",
-        src: "/src/assets/images/projects/beecyfashion/gallery1.png",
+        src: "/assets/images/projects/beecyfashion/gallery1.png", // Updated path
         alt: "Login screen"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/beecyfashion/gallery2.png",
+        src: "/assets/images/projects/beecyfashion/gallery2.png", // Updated path
         alt: "Product gallery and cart"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/beecyfashion/gallery3.png",
+        src: "/assets/images/projects/beecyfashion/gallery3.png", // Updated path
         alt: "Product gallery and cart"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/beecyfashion/gallery4.png",
+        src: "/assets/images/projects/beecyfashion/gallery4.png", // Updated path
         alt: "Product gallery and cart"
       },
     ],
@@ -245,56 +244,56 @@ export const projects = [
     id: 6,
     title: "Skill Sharing Platform",
     shortDescription: "Social media style platform for learning and sharing skills",
-    mainImage: "/src/assets/images/projects/skillsharing/main.jpg",
+    mainImage: "/assets/images/projects/skillsharing/main.jpg", // Updated path
     gallery: [
       {
         type: "image",
-        src: "/src/assets/images/projects/skillsharing/gallery1.png",
+        src: "/assets/images/projects/skillsharing/gallery1.png", // Updated path
         alt: "Post feed interface"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/skillsharing/gallery2.png",
+        src: "/assets/images/projects/skillsharing/gallery2.png", // Updated path
         alt: "Chat and notification view"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/skillsharing/gallery3.png",
+        src: "/assets/images/projects/skillsharing/gallery3.png", // Updated path
         alt: "Chat and notification view"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/skillsharing/gallery4.png",
+        src: "/assets/images/projects/skillsharing/gallery4.png", // Updated path
         alt: "Chat and notification view"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/skillsharing/gallery5.png",
+        src: "/assets/images/projects/skillsharing/gallery5.png", // Updated path
         alt: "Chat and notification view"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/skillsharing/gallery6.png",
+        src: "/assets/images/projects/skillsharing/gallery6.png", // Updated path
         alt: "Chat and notification view"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/skillsharing/gallery7.png",
+        src: "/assets/images/projects/skillsharing/gallery7.png", // Updated path
         alt: "Chat and notification view"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/skillsharing/gallery8.png",
+        src: "/assets/images/projects/skillsharing/gallery8.png", // Updated path
         alt: "Chat and notification view"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/skillsharing/gallery9.png",
+        src: "/assets/images/projects/skillsharing/gallery9.png", // Updated path
         alt: "Chat and notification view"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/skillsharing/gallery10.png",
+        src: "/assets/images/projects/skillsharing/gallery10.png", // Updated path
         alt: "Chat and notification view"
       },
     ],
@@ -316,31 +315,31 @@ export const projects = [
     id: 7,
     title: "Online Examination Management System",
     shortDescription: "Web application for managing online exams",
-    mainImage: "/src/assets/images/projects/exam/main.png",
+    mainImage: "/assets/images/projects/exam/main.png", // Updated path
     gallery: [
       {
         type: "image",
-        src: "/src/assets/images/projects/exam/gallery1.png",
+        src: "/assets/images/projects/exam/gallery1.png", // Updated path
         alt: "Login screen"
       },
       {
         type: "image",
-        src: "/src/assets/images/projects/exam/gallery2.png",
+        src: "/assets/images/projects/exam/gallery2.png", // Updated path
         alt: "Exam dashboard"
       },
-       {
+      {
         type: "image",
-        src: "/src/assets/images/projects/exam/gallery3.png",
+        src: "/assets/images/projects/exam/gallery3.png", // Updated path
         alt: "Contact us"
       },
-       {
+      {
         type: "image",
-        src: "/src/assets/images/projects/exam/galler4.png",
+        src: "/assets/images/projects/exam/gallery4.png", // Updated path
         alt: "Modules"
       },
       {
         type: "video",
-        src: "/src/assets/images/projects/exam/demo.mp4",
+        src: "/assets/images/projects/exam/demo.mp4", // Updated path
         alt: "Demo walkthrough"
       }
     ],
@@ -361,7 +360,7 @@ export const projects = [
     id: 8,
     title: "MyNotes",
     shortDescription: "Note-taking Android app",
-    mainImage: "/src/assets/images/projects/mynotes/main.jpg",
+    mainImage: "/assets/images/projects/mynotes/main.jpg", // Updated path
     tags: ["Kotlin", "Note App"],
     fullDescription:
       "A note-writing Android app that allows users to create, update, and delete notes. Developed using Kotlin and Android Studio.",
@@ -373,13 +372,13 @@ export const projects = [
     ],
     techStack: ["Kotlin", "Android Studio"],
     liveUrl: "",
-    githubUrl: "https://github.com/MethusalaKPerera/Mynotes"
+    githubUrl: "https://github.com/MethusalaKPerera/Mynotes" 
   },
   {
     id: 9,
     title: "Tourism & Travel Management System",
     shortDescription: "Group project to manage tourism-related operations",
-    mainImage: "/src/assets/images/projects/tourism/main.jpg",
+    mainImage: "/assets/images/projects/tourism/main.jpg", // Updated path
     tags: ["HTML", "CSS", "JavaScript", "PHP"],
     fullDescription:
       "A web-based system developed during my first-year second semester at SLIIT to streamline tourism and travel management. This group project improved workflow efficiency by 25% and was delivered on time.",

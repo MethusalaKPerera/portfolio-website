@@ -16,7 +16,7 @@ const MediaGallery = ({ gallery }) => {
   };
 
   const currentMedia = gallery[currentIndex];
-  
+
   // Check if current media is a mobile screenshot
   const isMobileContent = currentMedia.alt && (
     currentMedia.alt.toLowerCase().includes('screen') ||
@@ -32,7 +32,7 @@ const MediaGallery = ({ gallery }) => {
   return (
     <div className="mb-8">
       <h3 className="text-xl font-semibold text-white mb-4">Project Gallery</h3>
-      
+
       {/* Main Media Display */}
       <div className={`relative rounded-xl overflow-hidden mb-4 ${
         isMobileContent 
@@ -41,7 +41,7 @@ const MediaGallery = ({ gallery }) => {
       }`}>
         {currentMedia.type === 'image' ? (
           <img
-            src={currentMedia.src}
+            src={currentMedia.src} // Directly use the path from `gallery.src`
             alt={currentMedia.alt}
             className={`${
               isMobileContent 
@@ -64,7 +64,7 @@ const MediaGallery = ({ gallery }) => {
             Your browser does not support the video tag.
           </video>
         )}
-        
+
         {/* Navigation Arrows */}
         {gallery.length > 1 && (
           <>
@@ -82,13 +82,13 @@ const MediaGallery = ({ gallery }) => {
             </button>
           </>
         )}
-        
+
         {/* Media Counter */}
         <div className="absolute bottom-4 right-4 bg-black/50 text-white px-3 py-1 rounded-full text-sm">
           {currentIndex + 1} / {gallery.length}
         </div>
       </div>
-      
+
       {/* Thumbnail Navigation */}
       <div className="flex space-x-3 overflow-x-auto pb-2">
         {gallery.map((media, index) => (
@@ -101,7 +101,7 @@ const MediaGallery = ({ gallery }) => {
           >
             {media.type === 'image' ? (
               <img
-                src={media.src}
+                src={media.src} // Directly use the path from `gallery.src`
                 alt={media.alt}
                 className="w-full h-full object-cover"
               />
@@ -113,13 +113,13 @@ const MediaGallery = ({ gallery }) => {
           </div>
         ))}
       </div>
-      
+
       {/* Fullscreen Modal */}
       {isFullscreen && currentMedia.type === 'image' && (
         <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-[60]">
           <div className="relative max-w-[90vw] max-h-[90vh]">
             <img
-              src={currentMedia.src}
+              src={currentMedia.src} // Directly use the path from `gallery.src`
               alt={currentMedia.alt}
               className="max-w-full max-h-full object-contain"
             />
