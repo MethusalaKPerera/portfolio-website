@@ -14,7 +14,7 @@ const Header = () => {
               <div className="relative md:-ml-12 md:-mt-8 z-10">
                 <div className="w-72 h-96 md:w-80 md:h-[480px] bg-gradient-to-br from-orange-400 to-pink-500 rounded-3xl p-1 flex-shrink-0 shadow-2xl transform md:rotate-3 hover:rotate-0 transition-transform duration-500">
                   <img 
-                    src="/src/assets/methusala.jpeg" 
+                    src="/assets/images/methusala.jpeg" 
                     alt="Methusala Perera"
                     className="w-full h-full rounded-3xl object-cover"
                   />
